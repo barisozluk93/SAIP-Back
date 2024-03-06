@@ -12,8 +12,8 @@ using UserManagement.DbContexts;
 namespace UserManagement.Migrations
 {
     [DbContext(typeof(UserManagementContext))]
-    [Migration("20240229075005_Initial")]
-    partial class Initial
+    [Migration("20240306071852_PermissionSeedDataEdit")]
+    partial class PermissionSeedDataEdit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -307,7 +307,7 @@ namespace UserManagement.Migrations
                         new
                         {
                             Id = 23L,
-                            Code = "ProductScene.List.Permission",
+                            Code = "ProductScene.Paging.Permission",
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Ürün Ekranı Listeleme Yetkisi"

@@ -44,7 +44,7 @@ namespace UserManagement.DbContexts
                 new Permission { Id = 20, Name = "Menü Ekranı Silme Yetkisi", Code = "MenuScene.Delete.Permission", IsDeleted = false , IsSystemData = true },
                 new Permission { Id = 21, Name = "Dashboard Görüntüleme Yetkisi", Code = "DashboardScene.View.Permission", IsDeleted = false , IsSystemData = true },
                 new Permission { Id = 22, Name = "Harita Görüntüleme Yetkisi", Code = "MapScene.View.Permission", IsDeleted = false , IsSystemData = true },
-                new Permission { Id = 23, Name = "Ürün Ekranı Listeleme Yetkisi", Code = "ProductScene.List.Permission", IsDeleted = false, IsSystemData = true },
+                new Permission { Id = 23, Name = "Ürün Ekranı Listeleme Yetkisi", Code = "ProductScene.Paging.Permission", IsDeleted = false, IsSystemData = true },
                 new Permission { Id = 24, Name = "Ürün Ekranı Kayıt Yetkisi", Code = "ProductScene.Save.Permission", IsDeleted = false, IsSystemData = true },
                 new Permission { Id = 25, Name = "Ürün Ekranı Güncelleme Yetkisi", Code = "ProductScene.Edit.Permission", IsDeleted = false, IsSystemData = true },
                 new Permission { Id = 26, Name = "Ürün Ekranı Silme Yetkisi", Code = "ProductScene.Delete.Permission", IsDeleted = false, IsSystemData = true }

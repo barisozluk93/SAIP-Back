@@ -17,14 +17,13 @@ namespace MenuManagement.DbContexts
         {
             modelBuilder.Entity<Menu>().HasData(
                 new Menu { Id = 1, Name = "Dashboard", NameEn = "Dashboard", Url = "/dashboard", ParentId = null, IsDeleted = false, PermissionId = 21, IsSystemData = true },
-                new Menu { Id = 2, Name = "Harita", NameEn = "Map Management", Url = "/map", ParentId = null, IsDeleted = false, PermissionId = 22, IsSystemData = true },
-                new Menu { Id = 3, Name = "Kullanıcı Yönetimi", NameEn = "User Management", Url = null, ParentId = null, IsDeleted = false, IsSystemData = true },
-                new Menu { Id = 4, Name = "Yetkiler", NameEn = "Permissions", Url = "/usermanagement/permissions", ParentId = 3, IsDeleted = false, PermissionId = 1, IsSystemData = true  },
-                new Menu { Id = 5, Name = "Roller", NameEn = "Roles", Url = "/usermanagement/roles", ParentId = 3, IsDeleted = false, PermissionId = 5, IsSystemData = true },
-                new Menu { Id = 6, Name = "Kullanıcılar", NameEn = "Users", Url = "/usermanagement/users", ParentId = 3, IsDeleted = false, PermissionId = 13 , IsSystemData = true },
-                new Menu { Id = 7, Name = "Organizasyon Yönetimi", NameEn = "Organization Management", Url = "/organizationmanagement", ParentId = null, IsDeleted = false, PermissionId = 9 , IsSystemData = true },
-                new Menu { Id = 8, Name = "Menü Yönetimi", NameEn = "Menu Management", Url = "/menumanagement", ParentId = null, IsDeleted = false, PermissionId = 17 , IsSystemData = true },
-                new Menu { Id = 9, Name = "Ürün Yönetimi", NameEn = "Product Management", Url = "/productmanagement", ParentId = null, IsDeleted = false, PermissionId = 23, IsSystemData = true }
+                new Menu { Id = 2, Name = "Kullanıcı Yönetimi", NameEn = "User Management", Url = null, ParentId = null, IsDeleted = false, IsSystemData = true },
+                new Menu { Id = 3, Name = "Yetkiler", NameEn = "Permissions", Url = "/usermanagement/permissions", ParentId = 2, IsDeleted = false, PermissionId = 1, IsSystemData = true  },
+                new Menu { Id = 4, Name = "Roller", NameEn = "Roles", Url = "/usermanagement/roles", ParentId = 2, IsDeleted = false, PermissionId = 5, IsSystemData = true },
+                new Menu { Id = 5, Name = "Kullanıcılar", NameEn = "Users", Url = "/usermanagement/users", ParentId = 2, IsDeleted = false, PermissionId = 13 , IsSystemData = true },
+                new Menu { Id = 6, Name = "Organizasyon Yönetimi", NameEn = "Organization Management", Url = "/organizationmanagement", ParentId = null, IsDeleted = false, PermissionId = 9 , IsSystemData = true },
+                new Menu { Id = 7, Name = "Menü Yönetimi", NameEn = "Menu Management", Url = "/menumanagement", ParentId = null, IsDeleted = false, PermissionId = 17 , IsSystemData = true },
+                new Menu { Id = 8, Name = "Ürün Yönetimi", NameEn = "Product Management", Url = "/productmanagement", ParentId = null, IsDeleted = false, PermissionId = 22, IsSystemData = true }
 
                 );
         }

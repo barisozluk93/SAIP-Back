@@ -12,8 +12,7 @@ namespace ProductManagement.Entity
         public bool IsDeleted { get; set; }
 
         [NotMapped]
-
-        public FileContentResult FileResult { get; set; }
+        public FileContentResult? FileResult { get; set; }
       
     }
 }

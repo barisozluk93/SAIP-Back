@@ -59,112 +59,112 @@ namespace FileManagement.Migrations
                         new
                         {
                             Id = 1L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 14086m,
                             Name = "1",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\1.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\1.png"
                         },
                         new
                         {
                             Id = 2L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 12481m,
                             Name = "2",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\2.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\2.png"
                         },
                         new
                         {
                             Id = 3L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 8663m,
                             Name = "3",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\3.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\3.png"
                         },
                         new
                         {
                             Id = 4L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 20976m,
                             Name = "4",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\4.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\4.png"
                         },
                         new
                         {
                             Id = 5L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 11770m,
                             Name = "5",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\5.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\5.png"
                         },
                         new
                         {
                             Id = 6L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 13585m,
                             Name = "6",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\6.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\6.png"
                         },
                         new
                         {
                             Id = 7L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 15732m,
                             Name = "7",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\7.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\7.png"
                         },
                         new
                         {
                             Id = 8L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 19896m,
                             Name = "8",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\8.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\8.png"
                         },
                         new
                         {
                             Id = 9L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 13939m,
                             Name = "9",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\9.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\9.png"
                         },
                         new
                         {
                             Id = 10L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 12552m,
                             Name = "10",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\10.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\10.png"
                         },
                         new
                         {
                             Id = 11L,
-                            ContentType = "image/jpg",
-                            Extension = ".jpg",
+                            ContentType = "image/png",
+                            Extension = ".png",
                             IsDeleted = false,
                             Length = 20349m,
                             Name = "11",
-                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\11.jpg"
+                            Path = "C:\\Users\\Asus\\Documents\\GitHub\\SAIP-Back\\FileManagement\\Uploads\\11.png"
                         });
                 });
 #pragma warning restore 612, 618

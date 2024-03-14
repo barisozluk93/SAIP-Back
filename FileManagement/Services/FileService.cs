@@ -87,10 +87,10 @@ namespace FileManagement.Services
             {
                 try
                 {
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads", Guid.NewGuid().ToString());
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads", Guid.NewGuid().ToString() + Path.GetExtension(file.FileName));
 
                     Entity.File dbItem = new Entity.File();
-                    dbItem.Name = file.Name;
+                    dbItem.Name = file.FileName;
                     dbItem.Length = file.Length;
                     dbItem.Path = filePath;
                     dbItem.Extension = Path.GetExtension(file.FileName);

@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MenuManagement.Migrations
 {
     [DbContext(typeof(MenuManagementContext))]
-    [Migration("20240305115317_Initial")]
+    [Migration("20240314112045_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -81,22 +81,12 @@ namespace MenuManagement.Migrations
                             Id = 2L,
                             IsDeleted = false,
                             IsSystemData = true,
-                            Name = "Harita",
-                            NameEn = "Map Management",
-                            PermissionId = 22L,
-                            Url = "/map"
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            IsDeleted = false,
-                            IsSystemData = true,
                             Name = "Kullanıcı Yönetimi",
                             NameEn = "User Management"
                         },
                         new
                         {
-                            Id = 4L,
+                            Id = 3L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Yetkiler",
@@ -107,7 +97,7 @@ namespace MenuManagement.Migrations
                         },
                         new
                         {
-                            Id = 5L,
+                            Id = 4L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Roller",
@@ -118,7 +108,7 @@ namespace MenuManagement.Migrations
                         },
                         new
                         {
-                            Id = 6L,
+                            Id = 5L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Kullanıcılar",
@@ -129,7 +119,7 @@ namespace MenuManagement.Migrations
                         },
                         new
                         {
-                            Id = 7L,
+                            Id = 6L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Organizasyon Yönetimi",
@@ -139,7 +129,7 @@ namespace MenuManagement.Migrations
                         },
                         new
                         {
-                            Id = 8L,
+                            Id = 7L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Menü Yönetimi",
@@ -149,12 +139,12 @@ namespace MenuManagement.Migrations
                         },
                         new
                         {
-                            Id = 9L,
+                            Id = 8L,
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Ürün Yönetimi",
                             NameEn = "Product Management",
-                            PermissionId = 23L,
+                            PermissionId = 22L,
                             Url = "/productmanagement"
                         });
                 });

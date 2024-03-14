@@ -44,14 +44,13 @@ namespace MenuManagement.Migrations
                 values: new object[,]
                 {
                     { 1L, null, false, true, "Dashboard", "Dashboard", null, 21L, "/dashboard" },
-                    { 2L, null, false, true, "Harita", "Map Management", null, 22L, "/map" },
-                    { 3L, null, false, true, "Kullanıcı Yönetimi", "User Management", null, null, null },
-                    { 7L, null, false, true, "Organizasyon Yönetimi", "Organization Management", null, 9L, "/organizationmanagement" },
-                    { 8L, null, false, true, "Menü Yönetimi", "Menu Management", null, 17L, "/menumanagement" },
-                    { 9L, null, false, true, "Ürün Yönetimi", "Product Management", null, 23L, "/productmanagement" },
-                    { 4L, null, false, true, "Yetkiler", "Permissions", 3L, 1L, "/usermanagement/permissions" },
-                    { 5L, null, false, true, "Roller", "Roles", 3L, 5L, "/usermanagement/roles" },
-                    { 6L, null, false, true, "Kullanıcılar", "Users", 3L, 13L, "/usermanagement/users" }
+                    { 2L, null, false, true, "Kullanıcı Yönetimi", "User Management", null, null, null },
+                    { 3L, null, false, true, "Yetkiler", "Permissions", 3L, 1L, "/usermanagement/permissions" },
+                    { 6L, null, false, true, "Organizasyon Yönetimi", "Organization Management", null, 9L, "/organizationmanagement" },
+                    { 7L, null, false, true, "Menü Yönetimi", "Menu Management", null, 17L, "/menumanagement" },
+                    { 8L, null, false, true, "Ürün Yönetimi", "Product Management", null, 22L, "/productmanagement" },
+                    { 4L, null, false, true, "Roller", "Roles", 3L, 5L, "/usermanagement/roles" },
+                    { 5L, null, false, true, "Kullanıcılar", "Users", 3L, 13L, "/usermanagement/users" }
                 });
 
             migrationBuilder.CreateIndex(

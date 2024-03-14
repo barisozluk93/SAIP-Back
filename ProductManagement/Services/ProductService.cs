@@ -70,7 +70,7 @@ namespace ProductManagement.Services
                     var product = await _dbContext.Products.Where(x => x.Id == id && !x.IsDeleted).FirstOrDefaultAsync();
                     if (product != null)
                     {
-                        product.FileResult = GetFileResult(product.FileId, token);
+                        product.FileResult = await GetFileResult(product.FileId, token);
 
                         result.SetData(product);
                         result.SetMessage("İşlem başarı ile gerçekleşti.");
@@ -132,7 +132,7 @@ namespace ProductManagement.Services
 
                     var pagination = PagedList<Product>.ToPagedList(queryable, pagingParameter.PageNumber, pagingParameter.PageSize);
 
-                    pagination.ForEach(x => x.FileResult = GetFileResult(x.FileId, token));
+                    pagination.ForEach(x => x.FileResult = GetFileResult(x.FileId, token).Result);
 
                     result.SetData(new PagingResult<PagedList<Product>>()
                     {
@@ -235,16 +235,16 @@ namespace ProductManagement.Services
             return result;
         }
 
-        private FileContentResult GetFileResult(long id, string token)
+        private async Task<FileContentResult> GetFileResult(long id, string token)
         {
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = client.GetAsync(_configuration["AppSettings:ApiUrl"] + "/api/File/" + id).Result;
+            var response = await client.GetAsync(_configuration["AppSettings:ApiUrl"] + "/api/File/" + id);
 
             if (response.IsSuccessStatusCode)
             {
-                var responseStr = response.Content.ReadAsStringAsync().Result;
+                var responseStr = await response.Content.ReadAsStringAsync();
 
                 if (!string.IsNullOrEmpty(responseStr))
                 {

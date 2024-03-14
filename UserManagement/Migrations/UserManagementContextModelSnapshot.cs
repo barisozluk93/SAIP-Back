@@ -296,14 +296,6 @@ namespace UserManagement.Migrations
                         new
                         {
                             Id = 22L,
-                            Code = "MapScene.View.Permission",
-                            IsDeleted = false,
-                            IsSystemData = true,
-                            Name = "Harita Görüntüleme Yetkisi"
-                        },
-                        new
-                        {
-                            Id = 23L,
                             Code = "ProductScene.Paging.Permission",
                             IsDeleted = false,
                             IsSystemData = true,
@@ -311,7 +303,7 @@ namespace UserManagement.Migrations
                         },
                         new
                         {
-                            Id = 24L,
+                            Id = 23L,
                             Code = "ProductScene.Save.Permission",
                             IsDeleted = false,
                             IsSystemData = true,
@@ -319,7 +311,7 @@ namespace UserManagement.Migrations
                         },
                         new
                         {
-                            Id = 25L,
+                            Id = 24L,
                             Code = "ProductScene.Edit.Permission",
                             IsDeleted = false,
                             IsSystemData = true,
@@ -327,11 +319,27 @@ namespace UserManagement.Migrations
                         },
                         new
                         {
-                            Id = 26L,
+                            Id = 25L,
                             Code = "ProductScene.Delete.Permission",
                             IsDeleted = false,
                             IsSystemData = true,
                             Name = "Ürün Ekranı Silme Yetkisi"
+                        },
+                        new
+                        {
+                            Id = 26L,
+                            Code = "FileScene.Save.Permission",
+                            IsDeleted = false,
+                            IsSystemData = true,
+                            Name = "Dosya Ekranı Kayıt Yetkisi"
+                        },
+                        new
+                        {
+                            Id = 27L,
+                            Code = "FileScene.Delete.Permission",
+                            IsDeleted = false,
+                            IsSystemData = true,
+                            Name = "Dosya Ekranı Silme Yetkisi"
                         });
                 });
 
@@ -586,21 +594,21 @@ namespace UserManagement.Migrations
                         {
                             Id = 27L,
                             IsDeleted = false,
-                            PermissionId = 21L,
-                            RoleId = 2L
+                            PermissionId = 27L,
+                            RoleId = 1L
                         },
                         new
                         {
                             Id = 28L,
                             IsDeleted = false,
-                            PermissionId = 22L,
+                            PermissionId = 21L,
                             RoleId = 2L
                         },
                         new
                         {
                             Id = 29L,
                             IsDeleted = false,
-                            PermissionId = 23L,
+                            PermissionId = 22L,
                             RoleId = 2L
                         });
                 });
@@ -872,6 +880,13 @@ namespace UserManagement.Migrations
                             Id = 26L,
                             IsDeleted = false,
                             PermissionId = 26L,
+                            UserId = 1L
+                        },
+                        new
+                        {
+                            Id = 27L,
+                            IsDeleted = false,
+                            PermissionId = 27L,
                             UserId = 1L
                         });
                 });

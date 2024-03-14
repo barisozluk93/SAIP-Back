@@ -241,11 +241,12 @@ namespace UserManagement.Migrations
                     { 19L, "MenuScene.Edit.Permission", false, true, "Menü Ekranı Güncelleme Yetkisi" },
                     { 20L, "MenuScene.Delete.Permission", false, true, "Menü Ekranı Silme Yetkisi" },
                     { 21L, "DashboardScene.View.Permission", false, true, "Dashboard Görüntüleme Yetkisi" },
-                    { 22L, "MapScene.View.Permission", false, true, "Harita Görüntüleme Yetkisi" },
-                    { 23L, "ProductScene.List.Permission", false, true, "Ürün Ekranı Listeleme Yetkisi" },
-                    { 24L, "ProductScene.Save.Permission", false, true, "Ürün Ekranı Kayıt Yetkisi" },
-                    { 25L, "ProductScene.Edit.Permission", false, true, "Ürün Ekranı Güncelleme Yetkisi" },
-                    { 26L, "ProductScene.Delete.Permission", false, true, "Ürün Ekranı Silme Yetkisi" }
+                    { 22L, "ProductScene.Paging.Permission", false, true, "Ürün Ekranı Listeleme Yetkisi" },
+                    { 23L, "ProductScene.Save.Permission", false, true, "Ürün Ekranı Kayıt Yetkisi" },
+                    { 24L, "ProductScene.Edit.Permission", false, true, "Ürün Ekranı Güncelleme Yetkisi" },
+                    { 25L, "ProductScene.Delete.Permission", false, true, "Ürün Ekranı Silme Yetkisi" },
+                    { 26L, "FileScene.Save.Permission", false, true, "Dosya Ekranı Kayıt Yetkisi" },
+                    { 27L, "FileScene.Delete.Permission", false, true, "Dosya Ekranı Silme Yetkisi" }
                 });
 
             migrationBuilder.InsertData(
@@ -293,9 +294,9 @@ namespace UserManagement.Migrations
                     { 24L, false, 24L, 1L },
                     { 25L, false, 25L, 1L },
                     { 26L, false, 26L, 1L },
-                    { 27L, false, 21L, 2L },
-                    { 28L, false, 22L, 2L },
-                    { 29L, false, 23L, 2L }
+                    { 27L, false, 27L, 1L },
+                    { 28L, false, 21L, 2L },
+                    { 29L, false, 22L, 2L }
                 });
 
             migrationBuilder.InsertData(
@@ -328,7 +329,8 @@ namespace UserManagement.Migrations
                     { 23L, false, 23L, 1L },
                     { 24L, false, 24L, 1L },
                     { 25L, false, 25L, 1L },
-                    { 26L, false, 26L, 1L }
+                    { 26L, false, 26L, 1L },
+                    { 27L, false, 27L, 1L }
                 });
 
             migrationBuilder.InsertData(
